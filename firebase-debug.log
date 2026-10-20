@@ -1,0 +1,210 @@
+[debug] [2026-03-01T19:44:20.900Z] ----------------------------------------------------------------------
+[debug] [2026-03-01T19:44:20.902Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Manigandan P\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js functions:list
+[debug] [2026-03-01T19:44:20.903Z] CLI Version:   15.8.0
+[debug] [2026-03-01T19:44:20.903Z] Platform:      win32
+[debug] [2026-03-01T19:44:20.903Z] Node Version:  v25.2.1
+[debug] [2026-03-01T19:44:20.903Z] Time:          Mon Mar 02 2026 01:14:20 GMT+0530 (India Standard Time)
+[debug] [2026-03-01T19:44:20.903Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-03-01T19:44:21.020Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-03-01T19:44:21.021Z] > authorizing via signed-in user (manigandan257006@gmail.com)
+[debug] [2026-03-01T19:44:21.021Z] [iam] checking project scholaraxis-fc50d for permissions ["cloudfunctions.functions.list","firebase.projects.get","run.services.list"]
+[debug] [2026-03-01T19:44:21.022Z] Checked if tokens are valid: false, expires at: 1772394123108
+[debug] [2026-03-01T19:44:21.022Z] Checked if tokens are valid: false, expires at: 1772394123108
+[debug] [2026-03-01T19:44:21.023Z] > refreshing access token with scopes: []
+[debug] [2026-03-01T19:44:21.024Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-03-01T19:44:21.024Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-03-01T19:44:22.139Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-03-01T19:44:22.139Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-03-01T19:44:22.148Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/scholaraxis-fc50d:testIamPermissions [none]
+[debug] [2026-03-01T19:44:22.148Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/scholaraxis-fc50d:testIamPermissions  x-goog-user-project=scholaraxis-fc50d
+[debug] [2026-03-01T19:44:22.148Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/scholaraxis-fc50d:testIamPermissions {"permissions":["cloudfunctions.functions.list","firebase.projects.get","run.services.list"]}
+[debug] [2026-03-01T19:44:23.736Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/scholaraxis-fc50d:testIamPermissions 200
+[debug] [2026-03-01T19:44:23.736Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/scholaraxis-fc50d:testIamPermissions {"permissions":["cloudfunctions.functions.list","firebase.projects.get","run.services.list"]}
+[debug] [2026-03-01T19:44:23.736Z] Checked if tokens are valid: true, expires at: 1772397861139
+[debug] [2026-03-01T19:44:23.736Z] Checked if tokens are valid: true, expires at: 1772397861139
+[debug] [2026-03-01T19:44:23.736Z] >>> [apiv2][query] GET https://cloudfunctions.googleapis.com/v1/projects/scholaraxis-fc50d/locations/-/functions [none]
+[debug] [2026-03-01T19:44:24.681Z] <<< [apiv2][status] GET https://cloudfunctions.googleapis.com/v1/projects/scholaraxis-fc50d/locations/-/functions 200
+[debug] [2026-03-01T19:44:24.681Z] <<< [apiv2][body] GET https://cloudfunctions.googleapis.com/v1/projects/scholaraxis-fc50d/locations/-/functions {}
+[debug] [2026-03-01T19:44:24.682Z] Checked if tokens are valid: true, expires at: 1772397861139
+[debug] [2026-03-01T19:44:24.682Z] Checked if tokens are valid: true, expires at: 1772397861139
+[debug] [2026-03-01T19:44:24.682Z] >>> [apiv2][query] GET https://cloudfunctions.googleapis.com/v2/projects/scholaraxis-fc50d/locations/-/functions filter=environment%3D%22GEN_2%22
+[debug] [2026-03-01T19:44:26.347Z] <<< [apiv2][status] GET https://cloudfunctions.googleapis.com/v2/projects/scholaraxis-fc50d/locations/-/functions 200
+[debug] [2026-03-01T19:44:26.347Z] <<< [apiv2][body] GET https://cloudfunctions.googleapis.com/v2/projects/scholaraxis-fc50d/locations/-/functions {}
+[info] No functions found in project scholaraxis-fc50d.
+[debug] [2026-03-01T19:44:49.324Z] ----------------------------------------------------------------------
+[debug] [2026-03-01T19:44:49.326Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Manigandan P\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only functions
+[debug] [2026-03-01T19:44:49.326Z] CLI Version:   15.8.0
+[debug] [2026-03-01T19:44:49.326Z] Platform:      win32
+[debug] [2026-03-01T19:44:49.326Z] Node Version:  v25.2.1
+[debug] [2026-03-01T19:44:49.326Z] Time:          Mon Mar 02 2026 01:14:49 GMT+0530 (India Standard Time)
+[debug] [2026-03-01T19:44:49.326Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-03-01T19:44:50.594Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-03-01T19:44:50.595Z] > authorizing via signed-in user (manigandan257006@gmail.com)
+[debug] [2026-03-01T19:44:50.595Z] [iam] checking project scholaraxis-fc50d for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2026-03-01T19:44:50.596Z] Checked if tokens are valid: true, expires at: 1772397861139
+[debug] [2026-03-01T19:44:50.596Z] Checked if tokens are valid: true, expires at: 1772397861139
+[debug] [2026-03-01T19:44:50.597Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/scholaraxis-fc50d:testIamPermissions [none]
+[debug] [2026-03-01T19:44:50.597Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/scholaraxis-fc50d:testIamPermissions  x-goog-user-project=scholaraxis-fc50d
+[debug] [2026-03-01T19:44:50.597Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/scholaraxis-fc50d:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]}
+[debug] [2026-03-01T19:44:51.967Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/scholaraxis-fc50d:testIamPermissions 200
+[debug] [2026-03-01T19:44:51.967Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/scholaraxis-fc50d:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]}
+[debug] [2026-03-01T19:44:51.968Z] Checked if tokens are valid: true, expires at: 1772397861139
+[debug] [2026-03-01T19:44:51.968Z] Checked if tokens are valid: true, expires at: 1772397861139
+[debug] [2026-03-01T19:44:51.968Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/scholaraxis-fc50d/serviceAccounts/scholaraxis-fc50d@appspot.gserviceaccount.com:testIamPermissions [none]
+[debug] [2026-03-01T19:44:51.968Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/scholaraxis-fc50d/serviceAccounts/scholaraxis-fc50d@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2026-03-01T19:44:53.675Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/scholaraxis-fc50d/serviceAccounts/scholaraxis-fc50d@appspot.gserviceaccount.com:testIamPermissions 200
+[debug] [2026-03-01T19:44:53.675Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/scholaraxis-fc50d/serviceAccounts/scholaraxis-fc50d@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[info] 
+[info] === Deploying to 'scholaraxis-fc50d'...
+[info] 
+[info] i  deploying functions 
+[info] Running command: npm --prefix "$RESOURCE_DIR" run build
+[info] +  functions: Finished running predeploy script. 
+[debug] [2026-03-01T19:44:58.088Z] Checked if tokens are valid: true, expires at: 1772397861139
+[debug] [2026-03-01T19:44:58.088Z] Checked if tokens are valid: true, expires at: 1772397861139
+[debug] [2026-03-01T19:44:58.088Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/scholaraxis-fc50d [none]
+[debug] [2026-03-01T19:44:59.460Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/scholaraxis-fc50d 200
+[debug] [2026-03-01T19:44:59.461Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/scholaraxis-fc50d {"projectNumber":"808837415014","projectId":"scholaraxis-fc50d","lifecycleState":"ACTIVE","name":"ScholarAxis","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2026-03-01T17:44:27.245975Z"}
+[info] i  functions: preparing codebase default for deployment 
+[info] i  functions: ensuring required API cloudfunctions.googleapis.com is enabled... 
+[info] i  functions: ensuring required API cloudbuild.googleapis.com is enabled... 
+[debug] [2026-03-01T19:44:59.464Z] Checked if tokens are valid: true, expires at: 1772397861139
+[debug] [2026-03-01T19:44:59.464Z] Checked if tokens are valid: true, expires at: 1772397861139
+[info] i  artifactregistry: ensuring required API artifactregistry.googleapis.com is enabled... 
+[debug] [2026-03-01T19:44:59.464Z] Checked if tokens are valid: true, expires at: 1772397861139
+[debug] [2026-03-01T19:44:59.464Z] Checked if tokens are valid: true, expires at: 1772397861139
+[debug] [2026-03-01T19:44:59.464Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/scholaraxis-fc50d/services/cloudbuild.googleapis.com [none]
+[debug] [2026-03-01T19:44:59.464Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/scholaraxis-fc50d/services/cloudbuild.googleapis.com  x-goog-user-project=scholaraxis-fc50d
+[debug] [2026-03-01T19:44:59.466Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/scholaraxis-fc50d/services/artifactregistry.googleapis.com [none]
+[debug] [2026-03-01T19:44:59.466Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/scholaraxis-fc50d/services/artifactregistry.googleapis.com  x-goog-user-project=scholaraxis-fc50d
+[debug] [2026-03-01T19:45:01.257Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/scholaraxis-fc50d/services/cloudbuild.googleapis.com 200
+[debug] [2026-03-01T19:45:01.257Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/scholaraxis-fc50d/services/cloudbuild.googleapis.com [omitted]
+[warn] !  functions: missing required API cloudbuild.googleapis.com. Enabling now... 
+[debug] [2026-03-01T19:45:01.258Z] Checked if tokens are valid: true, expires at: 1772397861139
+[debug] [2026-03-01T19:45:01.258Z] Checked if tokens are valid: true, expires at: 1772397861139
+[debug] [2026-03-01T19:45:01.258Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/scholaraxis-fc50d/services/cloudbuild.googleapis.com:enable [none]
+[debug] [2026-03-01T19:45:01.258Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/scholaraxis-fc50d/services/cloudbuild.googleapis.com:enable  x-goog-user-project=scholaraxis-fc50d
+[debug] [2026-03-01T19:45:01.262Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/scholaraxis-fc50d/services/artifactregistry.googleapis.com 200
+[debug] [2026-03-01T19:45:01.263Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/scholaraxis-fc50d/services/artifactregistry.googleapis.com [omitted]
+[warn] !  artifactregistry: missing required API artifactregistry.googleapis.com. Enabling now... 
+[debug] [2026-03-01T19:45:01.263Z] Checked if tokens are valid: true, expires at: 1772397861139
+[debug] [2026-03-01T19:45:01.263Z] Checked if tokens are valid: true, expires at: 1772397861139
+[debug] [2026-03-01T19:45:01.263Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/scholaraxis-fc50d/services/artifactregistry.googleapis.com:enable [none]
+[debug] [2026-03-01T19:45:01.263Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/scholaraxis-fc50d/services/artifactregistry.googleapis.com:enable  x-goog-user-project=scholaraxis-fc50d
+[debug] [2026-03-01T19:45:02.947Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/scholaraxis-fc50d/services/cloudbuild.googleapis.com:enable 400
+[debug] [2026-03-01T19:45:02.947Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/scholaraxis-fc50d/services/cloudbuild.googleapis.com:enable [omitted]
+[debug] [2026-03-01T19:45:02.952Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/scholaraxis-fc50d/services/artifactregistry.googleapis.com:enable 400
+[debug] [2026-03-01T19:45:02.952Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/scholaraxis-fc50d/services/artifactregistry.googleapis.com:enable [omitted]
+[error] 
+[error] Error: Your project scholaraxis-fc50d must be on the Blaze (pay-as-you-go) plan to complete this command. Required API cloudbuild.googleapis.com can't be enabled until the upgrade is complete. To upgrade, visit the following URL:
+
+https://console.firebase.google.com/project/scholaraxis-fc50d/usage/details
+[debug] [2026-03-01T19:45:18.039Z] ----------------------------------------------------------------------
+[debug] [2026-03-01T19:45:18.041Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Manigandan P\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js functions:secrets:get GMAIL_USER
+[debug] [2026-03-01T19:45:18.041Z] CLI Version:   15.8.0
+[debug] [2026-03-01T19:45:18.041Z] Platform:      win32
+[debug] [2026-03-01T19:45:18.041Z] Node Version:  v25.2.1
+[debug] [2026-03-01T19:45:18.041Z] Time:          Mon Mar 02 2026 01:15:18 GMT+0530 (India Standard Time)
+[debug] [2026-03-01T19:45:18.041Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-03-01T19:45:18.157Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-03-01T19:45:18.157Z] > authorizing via signed-in user (manigandan257006@gmail.com)
+[debug] [2026-03-01T19:45:18.158Z] Checked if tokens are valid: true, expires at: 1772397861139
+[debug] [2026-03-01T19:45:18.159Z] Checked if tokens are valid: true, expires at: 1772397861139
+[debug] [2026-03-01T19:45:18.159Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/scholaraxis-fc50d/services/secretmanager.googleapis.com [none]
+[debug] [2026-03-01T19:45:18.159Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/scholaraxis-fc50d/services/secretmanager.googleapis.com  x-goog-user-project=scholaraxis-fc50d
+[debug] [2026-03-01T19:45:20.013Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/scholaraxis-fc50d/services/secretmanager.googleapis.com 200
+[debug] [2026-03-01T19:45:20.013Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/scholaraxis-fc50d/services/secretmanager.googleapis.com [omitted]
+[debug] [2026-03-01T19:45:20.014Z] Checked if tokens are valid: true, expires at: 1772397861139
+[debug] [2026-03-01T19:45:20.014Z] Checked if tokens are valid: true, expires at: 1772397861139
+[debug] [2026-03-01T19:45:20.014Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/scholaraxis-fc50d/services/secretmanager.googleapis.com:enable [none]
+[debug] [2026-03-01T19:45:20.014Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/scholaraxis-fc50d/services/secretmanager.googleapis.com:enable  x-goog-user-project=scholaraxis-fc50d
+[debug] [2026-03-01T19:45:21.767Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/scholaraxis-fc50d/services/secretmanager.googleapis.com:enable 400
+[debug] [2026-03-01T19:45:21.767Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/scholaraxis-fc50d/services/secretmanager.googleapis.com:enable [omitted]
+[error] 
+[error] Error: Your project scholaraxis-fc50d must be on the Blaze (pay-as-you-go) plan to complete this command. Required API secretmanager.googleapis.com can't be enabled until the upgrade is complete. To upgrade, visit the following URL:
+
+https://console.firebase.google.com/project/scholaraxis-fc50d/usage/details
+[debug] [2026-03-01T20:30:17.474Z] ----------------------------------------------------------------------
+[debug] [2026-03-01T20:30:17.476Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Manigandan P\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only firestore:rules
+[debug] [2026-03-01T20:30:17.476Z] CLI Version:   15.8.0
+[debug] [2026-03-01T20:30:17.476Z] Platform:      win32
+[debug] [2026-03-01T20:30:17.476Z] Node Version:  v25.2.1
+[debug] [2026-03-01T20:30:17.476Z] Time:          Mon Mar 02 2026 02:00:17 GMT+0530 (India Standard Time)
+[debug] [2026-03-01T20:30:17.477Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-03-01T20:30:18.428Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-03-01T20:30:18.429Z] > authorizing via signed-in user (manigandan257006@gmail.com)
+[debug] [2026-03-01T20:30:18.429Z] [iam] checking project scholaraxis-fc50d for permissions ["datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get"]
+[debug] [2026-03-01T20:30:18.429Z] Checked if tokens are valid: false, expires at: 1772397861139
+[debug] [2026-03-01T20:30:18.430Z] Checked if tokens are valid: false, expires at: 1772397861139
+[debug] [2026-03-01T20:30:18.430Z] > refreshing access token with scopes: []
+[debug] [2026-03-01T20:30:18.431Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-03-01T20:30:18.431Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-03-01T20:30:18.653Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-03-01T20:30:18.654Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-03-01T20:30:18.663Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/scholaraxis-fc50d:testIamPermissions [none]
+[debug] [2026-03-01T20:30:18.664Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/scholaraxis-fc50d:testIamPermissions  x-goog-user-project=scholaraxis-fc50d
+[debug] [2026-03-01T20:30:18.664Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/scholaraxis-fc50d:testIamPermissions {"permissions":["datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get"]}
+[debug] [2026-03-01T20:30:20.259Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/scholaraxis-fc50d:testIamPermissions 200
+[debug] [2026-03-01T20:30:20.259Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/scholaraxis-fc50d:testIamPermissions {"permissions":["datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get"]}
+[info] 
+[info] === Deploying to 'scholaraxis-fc50d'...
+[info] 
+[info] i  deploying firestore 
+[info] i  firestore: ensuring required API firestore.googleapis.com is enabled... 
+[debug] [2026-03-01T20:30:20.261Z] Checked if tokens are valid: true, expires at: 1772400617654
+[debug] [2026-03-01T20:30:20.261Z] Checked if tokens are valid: true, expires at: 1772400617654
+[debug] [2026-03-01T20:30:20.261Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/scholaraxis-fc50d/services/firestore.googleapis.com [none]
+[debug] [2026-03-01T20:30:20.262Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/scholaraxis-fc50d/services/firestore.googleapis.com  x-goog-user-project=scholaraxis-fc50d
+[debug] [2026-03-01T20:30:22.179Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/scholaraxis-fc50d/services/firestore.googleapis.com 200
+[debug] [2026-03-01T20:30:22.180Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/scholaraxis-fc50d/services/firestore.googleapis.com [omitted]
+[info] +  firestore: required API firestore.googleapis.com is enabled 
+[info] i  firestore: ensuring required API firestore.googleapis.com is enabled... 
+[debug] [2026-03-01T20:30:22.183Z] Checked if tokens are valid: true, expires at: 1772400617654
+[debug] [2026-03-01T20:30:22.183Z] Checked if tokens are valid: true, expires at: 1772400617654
+[debug] [2026-03-01T20:30:22.183Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/scholaraxis-fc50d/databases/(default) [none]
+[debug] [2026-03-01T20:30:22.527Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/scholaraxis-fc50d/databases/(default) 200
+[debug] [2026-03-01T20:30:22.527Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/scholaraxis-fc50d/databases/(default) {"name":"projects/scholaraxis-fc50d/databases/(default)","uid":"b8be9ce9-9890-4188-966d-ffaa24a58887","createTime":"2026-03-01T17:48:38.467284Z","updateTime":"2026-03-01T17:48:38.467284Z","locationId":"asia-south1","type":"FIRESTORE_NATIVE","concurrencyMode":"PESSIMISTIC","versionRetentionPeriod":"3600s","earliestVersionTime":"2026-03-01T19:30:20.419307Z","appEngineIntegrationMode":"DISABLED","keyPrefix":"j","pointInTimeRecoveryEnablement":"POINT_IN_TIME_RECOVERY_DISABLED","deleteProtectionState":"DELETE_PROTECTION_DISABLED","databaseEdition":"STANDARD","freeTier":true,"realtimeUpdatesMode":"REALTIME_UPDATES_MODE_ENABLED","etag":"IMSktrbF/5IDMKaLn6fF/5ID"}
+[info] i  firestore: reading indexes from firestore.indexes.json... 
+[info] i  cloud.firestore: checking firestore.rules for compilation errors... 
+[debug] [2026-03-01T20:30:22.528Z] Checked if tokens are valid: true, expires at: 1772400617654
+[debug] [2026-03-01T20:30:22.528Z] Checked if tokens are valid: true, expires at: 1772400617654
+[debug] [2026-03-01T20:30:22.528Z] >>> [apiv2][query] POST https://firebaserules.googleapis.com/v1/projects/scholaraxis-fc50d:test [none]
+[debug] [2026-03-01T20:30:22.528Z] >>> [apiv2][body] POST https://firebaserules.googleapis.com/v1/projects/scholaraxis-fc50d:test [omitted]
+[debug] [2026-03-01T20:30:24.100Z] <<< [apiv2][status] POST https://firebaserules.googleapis.com/v1/projects/scholaraxis-fc50d:test 200
+[debug] [2026-03-01T20:30:24.100Z] <<< [apiv2][body] POST https://firebaserules.googleapis.com/v1/projects/scholaraxis-fc50d:test {}
+[info] +  cloud.firestore: rules file firestore.rules compiled successfully 
+[debug] [2026-03-01T20:30:24.101Z] Checked if tokens are valid: true, expires at: 1772400617654
+[debug] [2026-03-01T20:30:24.101Z] Checked if tokens are valid: true, expires at: 1772400617654
+[debug] [2026-03-01T20:30:24.101Z] >>> [apiv2][query] GET https://firebaserules.googleapis.com/v1/projects/scholaraxis-fc50d/releases pageSize=10&pageToken=
+[debug] [2026-03-01T20:30:25.422Z] <<< [apiv2][status] GET https://firebaserules.googleapis.com/v1/projects/scholaraxis-fc50d/releases 200
+[debug] [2026-03-01T20:30:25.422Z] <<< [apiv2][body] GET https://firebaserules.googleapis.com/v1/projects/scholaraxis-fc50d/releases {"releases":[{"name":"projects/scholaraxis-fc50d/releases/cloud.firestore","rulesetName":"projects/scholaraxis-fc50d/rulesets/2dd18134-f313-487e-9563-282ec9d11a1f","createTime":"2026-03-01T17:48:47.800958Z","updateTime":"2026-03-01T17:48:47.800958Z"}]}
+[debug] [2026-03-01T20:30:25.422Z] Checked if tokens are valid: true, expires at: 1772400617654
+[debug] [2026-03-01T20:30:25.422Z] Checked if tokens are valid: true, expires at: 1772400617654
+[debug] [2026-03-01T20:30:25.422Z] >>> [apiv2][query] GET https://firebaserules.googleapis.com/v1/projects/scholaraxis-fc50d/rulesets/2dd18134-f313-487e-9563-282ec9d11a1f [none]
+[debug] [2026-03-01T20:30:26.827Z] <<< [apiv2][status] GET https://firebaserules.googleapis.com/v1/projects/scholaraxis-fc50d/rulesets/2dd18134-f313-487e-9563-282ec9d11a1f 200
+[debug] [2026-03-01T20:30:26.827Z] <<< [apiv2][body] GET https://firebaserules.googleapis.com/v1/projects/scholaraxis-fc50d/rulesets/2dd18134-f313-487e-9563-282ec9d11a1f [omitted]
+[info] i  firestore: uploading rules firestore.rules... 
+[debug] [2026-03-01T20:30:26.828Z] Checked if tokens are valid: true, expires at: 1772400617654
+[debug] [2026-03-01T20:30:26.829Z] Checked if tokens are valid: true, expires at: 1772400617654
+[debug] [2026-03-01T20:30:26.829Z] >>> [apiv2][query] POST https://firebaserules.googleapis.com/v1/projects/scholaraxis-fc50d/rulesets [none]
+[debug] [2026-03-01T20:30:26.829Z] >>> [apiv2][body] POST https://firebaserules.googleapis.com/v1/projects/scholaraxis-fc50d/rulesets [omitted]
+[debug] [2026-03-01T20:30:28.190Z] <<< [apiv2][status] POST https://firebaserules.googleapis.com/v1/projects/scholaraxis-fc50d/rulesets 200
+[debug] [2026-03-01T20:30:28.191Z] <<< [apiv2][body] POST https://firebaserules.googleapis.com/v1/projects/scholaraxis-fc50d/rulesets {"name":"projects/scholaraxis-fc50d/rulesets/04cee663-27a0-47df-824f-2ec793965556","source":{"files":[{"content":"rules_version = '2';\nservice cloud.firestore {\n  match /databases/{database}/documents {\n    // Current app uses custom role/password login and does not use Firebase Auth yet.\n    // Keep permissive rules for now so existing app flows continue to work after migration.\n    // Tighten this once Firebase Auth is integrated.\n    match /{document=**} {\n      allow read, write: if true;\n    }\n  }\n}\n","name":"firestore.rules"}]},"createTime":"2026-03-01T20:30:25.975327Z","metadata":{"services":["cloud.firestore"]}}
+[debug] [2026-03-01T20:30:28.191Z] [rules] created ruleset projects/scholaraxis-fc50d/rulesets/04cee663-27a0-47df-824f-2ec793965556
+[debug] [2026-03-01T20:30:28.191Z] [rules] releasing cloud.firestore/(default) with ruleset projects/scholaraxis-fc50d/rulesets/04cee663-27a0-47df-824f-2ec793965556
+[debug] [2026-03-01T20:30:28.191Z] Checked if tokens are valid: true, expires at: 1772400617654
+[debug] [2026-03-01T20:30:28.191Z] Checked if tokens are valid: true, expires at: 1772400617654
+[debug] [2026-03-01T20:30:28.191Z] >>> [apiv2][query] PATCH https://firebaserules.googleapis.com/v1/projects/scholaraxis-fc50d/releases/cloud.firestore/(default) [none]
+[debug] [2026-03-01T20:30:28.191Z] >>> [apiv2][body] PATCH https://firebaserules.googleapis.com/v1/projects/scholaraxis-fc50d/releases/cloud.firestore/(default) {"release":{"name":"projects/scholaraxis-fc50d/releases/cloud.firestore/(default)","rulesetName":"projects/scholaraxis-fc50d/rulesets/04cee663-27a0-47df-824f-2ec793965556"}}
+[debug] [2026-03-01T20:30:28.749Z] <<< [apiv2][status] PATCH https://firebaserules.googleapis.com/v1/projects/scholaraxis-fc50d/releases/cloud.firestore/(default) 200
+[debug] [2026-03-01T20:30:28.749Z] <<< [apiv2][body] PATCH https://firebaserules.googleapis.com/v1/projects/scholaraxis-fc50d/releases/cloud.firestore/(default) {"name":"projects/scholaraxis-fc50d/releases/cloud.firestore","rulesetName":"projects/scholaraxis-fc50d/rulesets/04cee663-27a0-47df-824f-2ec793965556","createTime":"2026-03-01T17:48:47.800958Z","updateTime":"2026-03-01T20:30:26.520109Z"}
+[debug] [2026-03-01T20:30:28.749Z] [rules] updated release projects/scholaraxis-fc50d/releases/cloud.firestore
+[info] +  firestore: released rules firestore.rules to cloud.firestore 
+[info] 
+[info] +  Deploy complete! 
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/scholaraxis-fc50d/overview
